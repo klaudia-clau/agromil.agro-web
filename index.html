@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgroMil.Agro | Dra. Claudity Sol</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        h1, h2 { font-family: 'Playfair Display', serif; }
+        .hero-gradient { background: linear-gradient(135deg, #f0fdf4 0%, #ffffff 100%); }
+        .card-shadow { box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05); }
+        .accent-green { color: #166534; }
+        .bg-accent-green { background-color: #166534; }
+        .logo-placeholder { max-height: 50px; width: auto; }
+    </style>
+</head>
+<body class="bg-white text-gray-800 antialiased">
+
+    <!-- Navegación -->
+    <nav class="fixed w-full z-50 bg-white/80 backdrop-blur-md border-b border-gray-100">
+        <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+            <!-- Espacio para el Logo -->
+            <div class="flex items-center">
+                <!-- Reemplaza la URL en src con la ruta de tu logo real -->
+                <img src="https://via.placeholder.com/200x60?text=AgroMil.Agro" alt="Logo AgroMil.Agro" class="logo-placeholder mr-2">
+            </div>
+            <div class="hidden md:flex space-x-8 text-sm font-medium uppercase tracking-widest text-gray-500">
+                <a href="#inicio" class="hover:text-green-700 transition">Inicio</a>
+                <a href="#modelo" class="hover:text-green-700 transition">Modelo CABA</a>
+                <a href="#servicios" class="hover:text-green-700 transition">Servicios</a>
+                <a href="#contacto" class="px-4 py-2 bg-accent-green text-white rounded-full hover:bg-green-800 transition">Contacto</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Sección Hero -->
+    <section id="inicio" class="pt-32 pb-20 hero-gradient">
+        <div class="max-w-4xl mx-auto px-6 text-center">
+            <span class="inline-block px-4 py-1 mb-6 text-xs font-semibold tracking-widest text-green-700 bg-green-100 rounded-full uppercase">
+                Calidez y Profesionalismo
+            </span>
+            <h1 class="text-4xl md:text-6xl mb-6 leading-tight">
+                Desenredo la <span class="accent-green">Biotecnología</span> para transformarla en ganancias.
+            </h1>
+            <p class="text-lg md:text-xl text-gray-600 mb-10 leading-relaxed max-w-2xl mx-auto">
+                Consultoría en Adopción para empresas de bioestimulantes. Cerramos la brecha entre el laboratorio y la parcela del agricultor.
+            </p>
+            <div class="flex flex-col md:flex-row justify-center gap-4">
+                <a href="#modelo" class="px-8 py-4 bg-accent-green text-white rounded-lg font-semibold hover:shadow-lg transition">Descubre el Modelo CABA</a>
+                <a href="#contacto" class="px-8 py-4 border border-gray-200 rounded-lg font-semibold hover:bg-gray-50 transition">Agendar Consultoría Técnica</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Insight -->
+    <section class="py-20 bg-white border-y border-gray-50">
+        <div class="max-w-4xl mx-auto px-6">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h2 class="text-3xl mb-6">El "Estancamiento Biológico" tiene solución.</h2>
+                    <p class="text-gray-600 leading-relaxed mb-4">
+                        Muchas empresas de bioestimulantes tienen un producto sólido, pero carecen de una narrativa que el agricultor entienda.
+                    </p>
+                    <p class="text-gray-600 leading-relaxed">
+                        Mi enfoque no es solo "hacer marketing", es lograr que el productor confíe en el <strong>mecanismo de acción</strong> de su tecnología para asegurar su rentabilidad.
+                    </p>
+                </div>
+                <div class="bg-green-50 p-8 rounded-2xl border border-green-100 text-center">
+                    <img src="https://via.placeholder.com/150x150?text=AgroMil.Agro+Logo" alt="AgroMil.Agro Logo Secundario" class="mx-auto mb-4 opacity-50 w-24 h-24">
+                    <blockquote class="italic text-green-900 text-lg">
+                        "En AgroMil.Agro no solo generamos contenido; aplicamos ciencia para que el agricultor adopte el cambio."
+                    </blockquote>
+                    <p class="mt-4 font-bold accent-green">— Dra. Claudity Sol</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modelo CABA -->
+    <section id="modelo" class="py-24 bg-gray-50">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl mb-4">Metodología CABA</h2>
+                <p class="text-gray-500 uppercase tracking-widest text-sm">Cuatro pilares para la adopción tecnológica</p>
+            </div>
+            <div class="grid md:grid-cols-4 gap-6">
+                <!-- C -->
+                <div class="bg-white p-8 rounded-xl card-shadow border-t-4 border-green-700">
+                    <div class="text-4xl font-bold accent-green mb-4">C</div>
+                    <h3 class="font-bold mb-2 uppercase text-xs tracking-wider">Comprensión</h3>
+                    <p class="text-sm text-gray-500">Traducimos el mecanismo de acción biológico a un lenguaje claro para el campo.</p>
+                </div>
+                <!-- A -->
+                <div class="bg-white p-8 rounded-xl card-shadow border-t-4 border-green-600">
+                    <div class="text-4xl font-bold accent-green mb-4">A</div>
+                    <h3 class="font-bold mb-2 uppercase text-xs tracking-wider">Aceptación</h3>
+                    <p class="text-sm text-gray-500">Derribamos mitos técnicos y generamos confianza técnica en el producto.</p>
+                </div>
+                <!-- B -->
+                <div class="bg-white p-8 rounded-xl card-shadow border-t-4 border-green-500">
+                    <div class="text-4xl font-bold accent-green mb-4">B</div>
+                    <h3 class="font-bold mb-2 uppercase text-xs tracking-wider">Beneficio</h3>
+                    <p class="text-sm text-gray-500">Alineamos el uso del insumo con el aumento real del rendimiento y rentabilidad.</p>
+                </div>
+                <!-- A -->
+                <div class="bg-white p-8 rounded-xl card-shadow border-t-4 border-green-400">
+                    <div class="text-4xl font-bold accent-green mb-4">A</div>
+                    <h3 class="font-bold mb-2 uppercase text-xs tracking-wider">Adopción</h3>
+                    <p class="text-sm text-gray-500">Logramos que el agricultor integre la biotecnología en su ciclo productivo anual.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Servicios -->
+    <section id="servicios" class="py-24 bg-white">
+        <div class="max-w-4xl mx-auto px-6 text-center">
+            <h2 class="text-4xl mb-16 text-center">Soluciones Estratégicas</h2>
+            <div class="space-y-12 text-left">
+                <div class="flex items-start space-x-6">
+                    <div class="w-12 h-12 bg-green-100 rounded-full flex-shrink-0 flex items-center justify-center accent-green font-bold text-xl">01</div>
+                    <div>
+                        <h3 class="text-xl font-bold mb-2">Estrategia de Comunicación Técnica</h3>
+                        <p class="text-gray-600">Diseño de guiones y narrativas basadas en fisiología vegetal aplicadas a ventas B2B y B2F.</p>
+                    </div>
+                </div>
+                <div class="flex items-start space-x-6">
+                    <div class="w-12 h-12 bg-green-100 rounded-full flex-shrink-0 flex items-center justify-center accent-green font-bold text-xl">02</div>
+                    <div>
+                        <h3 class="text-xl font-bold mb-2">Validación de Portafolio "Director's Cut"</h3>
+                        <p class="text-gray-600">Creación de casos de éxito reales (antes/después) con rigor científico para equipos de marketing.</p>
+                    </div>
+                </div>
+                <div class="flex items-start space-x-6">
+                    <div class="w-12 h-12 bg-green-100 rounded-full flex-shrink-0 flex items-center justify-center accent-green font-bold text-xl">03</div>
+                    <div>
+                        <h3 class="text-xl font-bold mb-2">Training para Equipos Comerciales</h3>
+                        <p class="text-gray-600">Capacitación en el Modelo CABA para transformar técnicos en cerradores de ventas estratégicas.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA / Contacto -->
+    <section id="contacto" class="py-24 bg-green-900 text-white">
+        <div class="max-w-4xl mx-auto px-6 text-center">
+            <h2 class="text-3xl md:text-5xl mb-8 leading-tight italic font-serif">¿Listo para mover su inventario del almacén a la parcela?</h2>
+            <p class="text-green-200 mb-12 text-lg">Agende una reunión para diagnosticar su estrategia de comunicación científica.</p>
+            <a href="mailto:claudia@agromil.agro" class="inline-block px-10 py-5 bg-white text-green-900 rounded-full font-bold text-lg hover:shadow-2xl transition">Contactar a la Dra. Claudity Sol</a>
+            <div class="mt-16 pt-8 border-t border-green-800 text-sm text-green-400 flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-4 md:mb-0">
+                    <img src="https://via.placeholder.com/150x40?text=AgroMil.Agro" alt="Logo AgroMil.Agro Footer" class="h-8 grayscale brightness-200">
+                </div>
+                <p>&copy; 2024 AgroMil.Agro | Ciencia que impulsa el campo.</p>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
